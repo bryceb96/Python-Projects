@@ -1,3 +1,4 @@
+#program will read in an input given by user to then print a list of divisors of that number
 number = int(input("enter a number "))
 
 x = range(1, number+1)
