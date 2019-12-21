@@ -1,3 +1,4 @@
+#program to generate two random lists and find the common elements in both lists
 import random
 
 a = random.sample(range(1,50), 10)
