@@ -1,3 +1,4 @@
+#program to have user guess a random number between 1 and 10
 import random
 num = random.randint(1,10)
 num = str(num)
