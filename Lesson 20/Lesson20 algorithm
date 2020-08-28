@@ -1,0 +1,23 @@
+Algorithm:
+bool = find_num_by_binary(list, bool, number)
+
+if bool == False:
+  print.format("Num {<0s} does not exist in the list")
+else:
+  print.format("Num {<0s} does not exist in the list")
+
+
+find_num_by_binary(list, bool, number):
+1. while length of list != 1:
+  2. find middle value in list (assign half = halve_the_list(list))
+  3. compare num to middle to see if num >, <, or == middle
+    3a. if num < middle, make new list without all numbers > num (including middle)
+    3b. if num > middle, make new list without all numbers < num (including middle)
+    3c. if num == middle, bool = True, return bool
+if length of list == 1:
+  if num != list[0]:
+    bool = False
+    return bool
+  else:
+    bool = True
+    return bool
