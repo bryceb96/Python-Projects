@@ -3,7 +3,7 @@ from collections import Counter
 import json
 
 def load_birthdays():
-    with open("C:/Users/Bryce/Dropbox/Documents/Python lessons/Lesson34/birthdays.json", "r") as f:
+    with open("birthdays.json", "r") as f:
         birthday_info = json.load(f)
 
     print("Welcome to the birthday dictionary. We know the birthdays of:")
